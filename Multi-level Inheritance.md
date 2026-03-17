@@ -39,10 +39,35 @@ To write a Python program to get the name, age, and ID of a person and display t
 ### PROGRAM
 
 ```
+# Name: Vikram GS
+# Reg No: 212222060296
 
+class Grandparent:
+    def show1(self):
+        print("This is Grandparent")
+
+class Parent(Grandparent):
+    def show2(self):
+        print("This is Parent")
+
+class Child(Parent):
+    def show3(self):
+        print("This is Child")
+
+c = Child()
+
+c.show1()
+c.show2()
+c.show3()
 
 ```
 
 ### OUTPUT
 
+This is Grandparent
+This is Parent
+This is Child
+
 ### RESULT
+
+Multilevel inheritance is implemented successfully.
