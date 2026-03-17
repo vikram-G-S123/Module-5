@@ -33,12 +33,39 @@ To write a Python program to get the name, attendance, and ID of a student and c
 
 ```
 
+# Name: Vikram GS
+# Reg No: 212222060296
+
+class Father:
+    def show1(self):
+        print("This is Father")
+
+class Mother:
+    def show2(self):
+        print("This is Mother")
+
+class Child(Father, Mother):
+    def show3(self):
+        print("This is Child")
+
+c = Child()
+
+c.show1()
+c.show2()
+c.show3()
+
 ```
 
 ### OUTPUT
 
+This is Father
+This is Mother
+This is Child
+
 
 ### RESULT
+
+Multiple inheritance is implemented successfully.
 
 
 
