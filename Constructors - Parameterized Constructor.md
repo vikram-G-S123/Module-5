@@ -25,8 +25,33 @@ To write a Python code to create a class for a person with a parameterized const
 
 ```
 
+# Name: Vikram GS
+# Reg No: 212222060296
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+n = input("Enter name: ")
+a = int(input("Enter age: "))
+
+s = Student(n, a)
+s.display()
+
 ```
 
 ### OUTPUT
 
+Enter name: Vikram
+Enter age: 21
+Name: Vikram
+Age: 21
+
 ### RESULT
+
+Parameterized constructor is implemented successfully.
