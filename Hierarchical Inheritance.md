@@ -55,11 +55,13 @@ c2.display2()
 ```
 
 ### OUTPUT  
-
+```
 This is Parent class
 This is Child1 class
 This is Parent class
 This is Child2 class
+
+```
 
 ### RESULT
 
