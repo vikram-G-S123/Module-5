@@ -28,13 +28,39 @@ To write a Python program to get the employee and doctor details and display the
 
 ### PROGRAM
 ```
+# Name: Vikram GS
+# Reg No: 212222060296
 
+class Parent:
+    def show(self):
+        print("This is Parent class")
+
+class Child1(Parent):
+    def display1(self):
+        print("This is Child1 class")
+
+class Child2(Parent):
+    def display2(self):
+        print("This is Child2 class")
+
+c1 = Child1()
+c2 = Child2()
+
+c1.show()
+c1.display1()
+
+c2.show()
+c2.display2()
 
 ```
 
 ### OUTPUT  
 
-(Output Screenshot)  
-
+This is Parent class
+This is Child1 class
+This is Parent class
+This is Child2 class
 
 ### RESULT
+
+Hierarchical inheritance is implemented successfully.
